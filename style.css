@@ -22,6 +22,27 @@ header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
+.header1{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius:25px ;
+    margin: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.header2{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius:25px ;
+    margin: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
 nav{
     display: flex;
     justify-content: center;
@@ -35,8 +56,8 @@ section{
 }
 article{
     margin: 34px;
-
 }
+
 .photo{
     width: 225px;
     height: 232px;
@@ -70,6 +91,12 @@ footer{
 .header:hover{
     background-color: orange;
 }
+.header1:hover{
+    background-color: orange;
+}
+.them:hover{
+    background-color: orange;
+}
 .d:hover{
     background-color: orange;
 }
@@ -77,6 +104,16 @@ footer{
     background-color: blue;
 }
 .ab{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.ab1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.ab2{
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     
@@ -105,4 +142,19 @@ p{
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 89px;
+}
+.menu{
+transition-property:transform;
+transition-duration: .5s;
+transform: scale(1.2)
+}
+.them{
+    cursor: pointer;
+    user-select: none;
+    background-color:rgb(255, 255, 255) ;
+    color: black;
+    padding: 10px;
+    border-radius:25px ;
+    margin: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
